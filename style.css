@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: darkred;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Old English Text MT", fantasy;
+}
+
+ /* img {
+    max-width: 25%;
+    height: auto;
+} */
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    max-width: 980px;
+    align-items: center;
+}
+.photos img {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    padding: 10px;
+}
+.menu-container {
+    color: black;
+    background-color: darkred;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid white;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.image-grid {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
